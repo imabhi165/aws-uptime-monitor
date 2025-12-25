@@ -36,3 +36,17 @@ flowchart LR
 - **Historical Logging** - All results stored in DynamoDB for analysis
 - **Cost-Effective** - Pay-per-use model, typically <$1/month
 - **Serverless** - No servers to provision, patch, or maintain
+
+## Step by Step Service creation with Screenshot attached
+
+### Step 1 - Create DynamoDB Table and see the table created when Website status is changes.
+
+![Amazon DynamoDB](Screenshots/DynamoDB-Status.png)
+
+### Step 2 - Create SNS Topic and send immediate notification to the attached email.
+
+![Amazon SNS](Screenshots/SNS.png)
+
+### Step 3 - Create Lambda Function and see the logs when the website is down.
+
+![AWS Lambda](Screenshots/Lambda.png)
