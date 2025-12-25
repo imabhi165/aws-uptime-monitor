@@ -50,3 +50,7 @@ flowchart LR
 ### Step 3 - Create Lambda Function and see the logs when the website is down.
 
 ![AWS Lambda](Screenshots/Lambda.png)
+
+### Step 4 - Notify the email when the website is down.
+
+## ![Email](Screenshots/Email.png)
