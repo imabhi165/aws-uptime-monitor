@@ -1,10 +1,10 @@
-# 🚀 AWS Serverless Website Uptime Monitor
+# AWS Serverless Website Uptime Monitor
 
-## 📋 Overview
+## Overview
 
 A fully serverless, event-driven AWS solution that automatically monitors website availability and sends email alerts when downtime is detected. Built with pay-per-use services for cost efficiency and scalability.
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
@@ -14,7 +14,7 @@ flowchart LR
     B -->|Log Result| D[(Amazon DynamoDB)]
     B --> E{Check Status?}
     E -->|Status != 200| F[Amazon SNS Topic]
-    F --> G[📧 Email Alert]
+    F --> G[Email Alert]
     E -->|Status == 200| H[No Action]
 ```
 
